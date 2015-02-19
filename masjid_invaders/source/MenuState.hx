@@ -22,6 +22,10 @@ class MenuState extends FlxState
 	{
 		super.create();
 		loadAndTracePluginClasses();
+
+		var s:FlxSprite = new FlxSprite();
+		s.loadGraphic('assets/images/dg-logo.png');
+		add(s);
 	}
 
 	private function loadAndTracePluginClasses() {

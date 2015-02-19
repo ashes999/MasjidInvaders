@@ -29,7 +29,8 @@
 
 	<set name="BUILD_DIR" value="export" />
 	<classpath name="source" />
-	<assets path="assets" include="*.png|*.ogg|*.n" />
+	<assets path="assets" include="*.png|*.ogg" embed="true" />
+	<assets path="assets" include="*.n" />
 
 	<!--------------------------------LIBRARIES------------------------------------->
 
